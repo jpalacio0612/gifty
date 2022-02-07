@@ -28,7 +28,7 @@ const ListOfGifs = ({ gifs }) => {
           <img
             key={gif.id}
             className="gif"
-            src={gif.images.original.webp}
+            src={gif.images.downsized_large.url}
             alt=""
             onClick={() => handleClick(gif.id)}
           />
