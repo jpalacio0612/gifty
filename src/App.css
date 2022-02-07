@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  background-color: var(--main-bg-color);
+  padding: 20px;
+}
+
+h1 {
+  color: var(--primary-text-color);
+  font-size: 48px;
+}
+
+.btn-more {
+  background-color: var(--primary-text-color);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.title {
+  text-decoration: none;
+}
